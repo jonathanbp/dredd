@@ -183,7 +183,7 @@ describe 'validateParameters', () ->
       params =
         name:
           description: 'Machine name'
-          type: 'string'
+          type: 'boolean'
           required: true
           example: ''
           default: ''
